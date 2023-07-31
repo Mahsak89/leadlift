@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["leadlift.herokuapp.com", "localhost",
+ALLOWED_HOSTS = ["leadlift-851c53fe189a.herokuapp.com", "localhost",
                  '8000-mahsak89-leadlift-33qzpe3exk.us2.codeanyapp.com']
 
 
