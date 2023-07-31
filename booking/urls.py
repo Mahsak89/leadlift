@@ -10,3 +10,4 @@ urlpatterns = [
     path('user-update-submit/<int:id>',
          views.userUpdateSubmit, name='userUpdateSubmit'),
     path('staff-panel', views.staffPanel, name='staffPanel'),
+]

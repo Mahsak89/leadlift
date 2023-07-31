@@ -244,6 +244,3 @@ def checkEditTime(times, day, id):
         if Appointment.objects.filter(day=day, time=k).count() < 1 or time == k:
             x.append(k)
     return x
-
-
-view rawviews.py hosted with ❤ by GitHub
